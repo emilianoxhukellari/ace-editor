@@ -60,7 +60,12 @@
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "construct-style-sheets-polyfill": "3.0.4",
     "lit-element": "2.5.1",
-    "lit-html": "1.4.1"
+    "lit-html": "1.4.1",
+    "@vaadin/common-frontend": "0.0.19",
+    "react-dom": "19.2.3",
+    "lit": "3.3.1",
+    "react": "19.2.3",
+    "react-router": "7.10.1"
   },
   "devDependencies": {
     "babel-loader": "8.2.2",
@@ -75,12 +80,28 @@
     "lit-css-loader": "0.0.4",
     "raw-loader": "3.1.0",
     "ts-loader": "8.0.12",
-    "typescript": "4.0.3",
+    "typescript": "5.9.3",
     "webpack": "4.42.0",
     "webpack-babel-multi-target-plugin": "2.5.0",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.11.0",
-    "webpack-merge": "4.2.2"
+    "webpack-merge": "4.2.2",
+    "strip-css-comments": "5.0.0",
+    "workbox-build": "7.4.0",
+    "rollup-plugin-visualizer": "6.0.5",
+    "@preact/signals-react-transform": "0.6.0",
+    "@rollup/plugin-replace": "6.0.3",
+    "@babel/preset-react": "7.28.5",
+    "@types/react-dom": "19.2.3",
+    "vite": "7.3.0",
+    "rollup-plugin-brotli": "3.1.0",
+    "@types/node": "25.0.2",
+    "@rollup/pluginutils": "5.3.0",
+    "vite-plugin-checker": "0.12.0",
+    "@types/react": "19.2.7",
+    "transform-ast": "2.4.4",
+    "magic-string": "0.30.21",
+    "@vitejs/plugin-react": "5.1.2"
   },
   "vaadin": {
     "dependencies": {
@@ -142,7 +163,12 @@
       "@webcomponents/webcomponentsjs": "^2.2.10",
       "construct-style-sheets-polyfill": "3.0.4",
       "lit-element": "2.5.1",
-      "lit-html": "1.4.1"
+      "lit-html": "1.4.1",
+      "@vaadin/common-frontend": "0.0.19",
+      "react-dom": "19.2.3",
+      "lit": "3.3.1",
+      "react": "19.2.3",
+      "react-router": "7.10.1"
     },
     "devDependencies": {
       "babel-loader": "8.2.2",
@@ -157,13 +183,30 @@
       "lit-css-loader": "0.0.4",
       "raw-loader": "3.1.0",
       "ts-loader": "8.0.12",
-      "typescript": "4.0.3",
+      "typescript": "5.9.3",
       "webpack": "4.42.0",
       "webpack-babel-multi-target-plugin": "2.5.0",
       "webpack-cli": "3.3.11",
       "webpack-dev-server": "3.11.0",
-      "webpack-merge": "4.2.2"
+      "webpack-merge": "4.2.2",
+      "strip-css-comments": "5.0.0",
+      "workbox-build": "7.4.0",
+      "rollup-plugin-visualizer": "6.0.5",
+      "@preact/signals-react-transform": "0.6.0",
+      "@rollup/plugin-replace": "6.0.3",
+      "@babel/preset-react": "7.28.5",
+      "@types/react-dom": "19.2.3",
+      "vite": "7.3.0",
+      "rollup-plugin-brotli": "3.1.0",
+      "@types/node": "25.0.2",
+      "@rollup/pluginutils": "5.3.0",
+      "vite-plugin-checker": "0.12.0",
+      "@types/react": "19.2.7",
+      "transform-ast": "2.4.4",
+      "magic-string": "0.30.21",
+      "@vitejs/plugin-react": "5.1.2"
     },
     "hash": "3a15742a54c0550d25a7b90814c6ce562d2204934cf3fdc1287244fcd1c33408"
-  }
+  },
+  "type": "module"
 }
